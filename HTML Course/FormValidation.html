@@ -8,17 +8,16 @@
   </head>
   <body>
     <section class="overlay">
-			<h1>Sign Up</h1>
+      <h1>Sign Up</h1>
       <p>Create an account:</p>
       <form action="submission.html" method="GET">
         <label for="username">Username:</label>
         <br>
-				<!--Add the pattern attribute to the input below-->
-				<input id="username" name="username" type="text" required minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+">
+        <input id="username" name="username" type="text" minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required >
         <br>
         <label for="pw">Password:</label>
         <br>
-				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <input id="pw" name="pw" type="password" minlength="8" maxlength="15" required >
         <br>
         <input type="submit" value="Submit">
       </form>
