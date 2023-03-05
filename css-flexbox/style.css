@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex; /*or inline-flex*/
+    border: 2px solid gray;
+    height: 300px; 
+}
+
+.flex-item {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    margin: 12px;
+    width: 150px;
+    height: 150px;
+}
+
+.item1 {
+    order: 3;
+}
+
+.item4 {
+    order: 4;
+}
+
