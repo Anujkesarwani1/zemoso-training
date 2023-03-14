@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment-Storage</title>
+    </head>
+    <body>
+        <h1 style="text-align: center; font-weight: bold; font-family: Arial, Helvetica, sans-serif; color: black;">Assignment-Storage</h1>
+        <p style="font-family: arial;">
+            <span style="font-weight: bold">Below is the Problem Statement:</span>
+            <br>
+            Create a simple application which displays two counts:Local Score, Session Score and a button to increment these counts. 
+            Local score must persist in Local Storage and Session score must persist in Session Storage and must reset on closing the session.
+            <br>
+        </p>
+        <h2 style="font-family: arial;">
+            Local Score:
+            <span id="localScore"></span>
+        </h2>
+        <h2 style="font-family: arial;">
+            Session Score:
+            <span id="sessionScore"></span>
+        </h2>
+        <button style="font-weight: bold;" onclick="onButtonClick()">Increment</button>
+        <script>
+            let localScore = 0
+            document.getElementById('localScore').textContent = localScore
+            
+            let sessionScore = 0
+            document.getElementById('sessionScore').textContent = sessionScore
+
+            function onButtonClick(){
+                localScore += 1;
+                document.getElementById('localScore').textContent = localScore
+                localStorage.setItem("Local Score", localScore)
+                
+                sessionScore += 1;
+                document.getElementById('sessionScore').textContent = sessionScore
+                sessionStorage.setItem("Session Score", sessionScore)
+            }
+        </script>
+    </body>
+</html>
+
