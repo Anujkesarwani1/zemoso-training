@@ -1,0 +1,11 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê…ŠÅ8Ù’Ý²þ0
+b
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ññöà8å’Ý²þ0
+Y
+java:S1854"<Remove this useless assignment to local variable "readFile".(ññöà8é’Ý²þ0
+J
+java:S1481"-Remove this unused "readFile" local variable.(ññöà8ó’Ý²þ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(²«Âûûÿÿÿÿ8ô’Ý²þ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÎ­Û8ø’Ý²þ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(²«Âûûÿÿÿÿ8ù’Ý²þ0

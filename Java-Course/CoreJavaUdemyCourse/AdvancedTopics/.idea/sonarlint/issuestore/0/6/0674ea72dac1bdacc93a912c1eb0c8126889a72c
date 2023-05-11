@@ -1,0 +1,12 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(νψ¶ώψÿÿÿÿ8£“±θώ0
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤η§Έ8 –Έθώ0
+U
+java:S1854"8Remove this useless assignment to local variable "list".(¤η§Έ8Γ–Έθώ0
+F
+java:S1481")Remove this unused "list" local variable.(¤η§Έ8Ι–Έθώ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Υ¨£ώÿÿÿÿ8Ò“±θώ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ς‚οσ8Υ“±θώ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ΙΤΝ΅ώÿÿÿÿ8Χ“±θώ0

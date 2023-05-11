@@ -1,0 +1,10 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦›ßŠþÿÿÿÿ8¸ƒî²þ0
+`
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(›èèÒ8Àƒî²þ0
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üî²÷ùÿÿÿÿ8Áƒî²þ0
+]	java:S125
+"<This block of commented-out lines of code should be removed.(Ù«ÿÿÿÿÿ8Æƒî²þ0
+š
+java:S1130"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(üî²÷ùÿÿÿÿ8Èƒî²þ0

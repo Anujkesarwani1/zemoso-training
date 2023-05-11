@@ -1,0 +1,12 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñ’Ù8¸¿Öèş0
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÛÄÕ8¹¿Öèş0
+^
+java:S1854"ARemove this useless assignment to local variable "linkedHashMap".(ñ’Ù8Å¿Öèş0
+O
+java:S1481"2Remove this unused "linkedHashMap" local variable.(ñ’Ù8È¿Öèş0
+Q
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(İÓÛ±8€Şßèş0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(…õ”8†Şßèş0
